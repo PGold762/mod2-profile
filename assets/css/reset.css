@@ -1,15 +1,21 @@
-*, html {
+html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     background-color: #000;
     color: #FFF;
   }
   
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, p, ol, ul {
     margin: 0;
     padding: 0;
     font-weight: normal;
   }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight:bold;
+  margin: 0;
+  padding: 0;
+}
   
 ol, ul {
     list-style: none;
