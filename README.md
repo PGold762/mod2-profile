@@ -44,6 +44,8 @@ Screenshot of website:
 
 Used the following Reset.CSS file from [Digital Ocean](https://www.digitalocean.com/community/tutorials/css-minimal-css-reset)
 
+Used the following as a guide [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 
 
 ## License
