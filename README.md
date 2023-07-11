@@ -48,6 +48,8 @@ Used the following as a guide [CSS-Tricks](https://css-tricks.com/snippets/css/a
 
 Received assistance from AskBCS user ssavage2 with creating a wrapper div to push everything center into the page on desktop.
 
+Received assistance from Tutor Andrew Tirpok who helped me with understanding the pieces I was missing with laying out my site using Flex.
+
 
 
 ## License

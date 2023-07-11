@@ -1,5 +1,3 @@
-
-
 /* Header */
 .header {
     padding: 50px;
@@ -11,33 +9,38 @@
     justify-content:flex-start; 
 }
 
-.header h1 {
-    font-size: 30px;
+.header .head-title {
+    display:flex;
     margin:0;
     padding:0;
-    width: 70%;
+    width: 45vw;
+    justify-content: right;
+}
+
+.head-title h1 {
+    font-size: 30px;
 }
 
 /* Navigation */
 .header nav {
     font-size: 20px;
-    display:flex;
-    width:30%;
-    flex: 1.5 0 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .header nav ul {
-    display: inline-flex;
-    align-self:end;
+    display: flex;
+    flex-direction: row;
+    align-self:center;
 }
 
 .header nav li {
     margin: 0 20px;
     
 }
-
+/* Wrapper for Mid Section to Center it on Desktop */
 .wrapper {
-    width: 1200px;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -46,38 +49,37 @@
 
 /* Bio Section */
 .bio {
-    width:960px;
+    width: 90%;
     padding: 15px;
     color: #000;
-    text-align: center;
-    /* width:98%; */
     display: flex;
     flex-direction: row; 
     justify-content:flex-start; 
 }
 
-/* .bio:before {
-    font-size:24px;
-    content: "About Me: ";
-    font-weight: bold;
-    padding-left: 30px;
-} */
-
-.bio div {
+.bio .biotitle {
     display:flex;
-    width: 60%;
+    width: 40%;
     height: auto;
     border-right: 3px solid black;
     align-items:center;
-    text-align:right;
+    justify-content: right;
+    padding-right: 20px;
 }
 
-.bio div h2 {
+.bio .biotitle h2 {
     font-size:24px;
     text-align:right;
 }
 
-.bio img {
+.bio .bioelements {
+    display:flex;
+    height: auto;
+    align-items:center;
+    justify-content: right;
+}
+
+.bio .bioelements img {
     max-width: 30%;
     flex: 1 0 100%;
     margin: 0 15px;
@@ -87,48 +89,85 @@
     border: 2px solid white;
 }
 
-.bio p {
+.bio .bioelements p {
     align-self:center;
-
 }
 
 /* Project Wrappers */
 main {
-    
+    width: 90%;
+    padding: 15px;
+    color: #000;
+    display: flex;
+    flex-direction: row; 
+    justify-content:flex-start; 
+    margin: 0 auto;
 }
 
 article {
+    width: 90%;
     display:flex;
     text-align:center;
-    width:fit-content;
+    width:90%;
     align-items:stretch;
-
 }
 
 /* Styles for Projects */
-article .projects {
+
+.previous-projects {
+    display:flex;
+    width: 40vw;
+    height: auto;
+    border-right: 3px solid black;
+    align-items:center;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.previous-projects h2 {
+    font-size:24px;
+    text-align:right;
+}
+
+.projects {
     margin: 20px 20px;
-    display: inline-block;
+    display: column;
+    text-align:left;
+    width:90%;
+}
+
+.projects .first {
+    margin: 20px 20px;
+    display: inline;
+    text-align:left;
+    width:90vh;
+}
+
+.project-headers {
+    width:40%;
+}
+
+.project-headers h2 {
+    margin: 10px 10px;
     text-align:center;
-    width:fit-content;
 }
 
-.projects h2 {
+.project-info {
+
+}
+
+.project-info p {
     margin: 10px 10px;
 }
 
-.projects p {
-    margin: 10px 10px;
-}
-
-.projects img {
+.project-info img {
     margin: 10px 10px;
     max-width: 30%;
     border-radius: 15px;
     border: 2px solid black;
 }
 
-.projects .larger img {
+.project-info .larger img {
     max-width: 50%;
 }
 
@@ -165,31 +204,51 @@ article .projects {
 
 
 /* Responsive Media Queries */
+
+/* Responsive Header */
 @media screen and (max-width: 768px) {
     .header, main {
       flex-direction: column;
     }
   }
 
-  @media screen and (max-width: 412px) {
-    .header, article {
-      flex-direction: column;
+  @media screen and (max-width: 420px) {
+    .header {
+        display: flex;
+        flex-direction: column;
     }
-  }
+}
 
+@media screen and (max-width: 420px) {
+    .header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+  /* Responsive Wrapper */
   @media screen and (max-width: 412px) {
     .wrapper {
            flex-direction:column;
      }
  }
  
+ /* Responsive Bio */
   @media screen and (max-width: 768px) {
     .bio {
     flex-direction:column;
-  }}
+  }
+}
 
   @media screen and (max-width: 412px) {
     .bio {
         flex-direction:column;
-      }}
-  
+      }
+}
+
+/* Responsive Footer */
+@media screen and (max-width: 412px) {
+    .footer {
+        flex-direction:column;
+      }
+}
