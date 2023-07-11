@@ -3,7 +3,7 @@
     padding: 50px;
     color: #000;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0;
     background-color: grey;
     justify-content:center; 
@@ -11,10 +11,11 @@
 
 .header .head-title {
     display:flex;
-    margin:0;
+    margin:0 0 20px 0;
     padding:0;
     width: 45vw;
-    justify-content: right;
+    justify-content: center;
+    align-self:center;
 }
 
 .head-title h1 {
@@ -26,6 +27,7 @@
     font-size: 20px;
     display: flex;
     justify-content: center;
+    align-self:center;
 }
 
 .header nav ul {
@@ -51,6 +53,7 @@
 .bio {
     width: 90%;
     padding: 15px;
+    margin: 0 auto;
     color: #000;
     display: flex;
     flex-direction: row; 
@@ -61,7 +64,7 @@
     display:flex;
     width: 40%;
     height: auto;
-    border-right: 3px solid black;
+    border-right: 3px solid gold;
     align-items:center;
     justify-content: right;
     padding-right: 20px;
@@ -95,19 +98,24 @@
 
 /* Project Wrappers */
 main {
-    width: 90%;
-    padding: 15px 0;
+    width: 90vw;
+    padding: 15px;
     color: #000;
     display: flex;
     flex-direction: row; 
-    /* justify-content:center;  */
-    /* flex-flow: column wrap; */
-    margin: 0;
+    margin: 0 auto;
+}
+
+.article-wrapper {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:row;
+    justify-content:center; 
 }
 
 article {
     flex: 1 1 20%;
-    /* width: 90%; */
     display:column;
     text-align:center;
     align-items:left;
@@ -121,24 +129,17 @@ section {
     flex-direction:column;
 }
 
-.article-wrapper {
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-}
-
 /* Styles for Projects */
 
 .previous-projects {
     display:flex;
     width: 40%;
-    /* height: auto; */
-    border-right: 3px solid black;
+    border-right: 3px solid gold;
     align-items:center;
-    justify-content: left;
+    justify-content: right;
     padding-right: 20px;
     flex-direction:row;
-    text-align:right;
+    /* text-align:right; */
 }
 
 .previous-projects h2 {
@@ -148,25 +149,14 @@ section {
 
 .projects>* {
     margin: 20px 15px;
-    /* display: flex; */
     flex: 1 1 100%;
-    /* text-align:left; */
-    /* width: 60%; */
     flex-direction:row;
     justify-content:left;
-    /* align-items:left; */
-    /* flex-wrap:wrap; */
-}
-
-.first {
-    /* margin: 20px 20px;
-    display: flex;
-    text-align:left;
-    width:100%; */
 }
 
 .project-headers {
     width:40%;
+    align-self:center;
 }
 
 .project-headers h2 {
@@ -193,7 +183,7 @@ section {
 }
 
 .larger img {
-    max-width: 100%;
+    max-width: 90%;
 }
 
 /* Footer Section */
