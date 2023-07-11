@@ -177,6 +177,12 @@ article .projects {
     }
   }
 
+  @media screen and (max-width: 412px) {
+    .wrapper {
+           flex-direction:column;
+     }
+ }
+ 
   @media screen and (max-width: 768px) {
     .bio {
     flex-direction:column;
@@ -186,3 +192,4 @@ article .projects {
     .bio {
         flex-direction:column;
       }}
+  
