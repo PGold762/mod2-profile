@@ -46,6 +46,8 @@ Used the following Reset.CSS file from [Digital Ocean](https://www.digitalocean.
 
 Used the following as a guide [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
+Received assistance from AskBCS user ssavage2 with creating a wrapper div to push everything center into the page on desktop.
+
 
 
 ## License
