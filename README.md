@@ -50,6 +50,8 @@ Received assistance from AskBCS user ssavage2 with creating a wrapper div to pus
 
 Received assistance from Tutor Andrew Tirpok who helped me with understanding the pieces I was missing with laying out my site using Flex.
 
+Used the following for guidance on wrapping flex items: [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Mastering_wrapping_of_flex_items)
+
 
 
 ## License
