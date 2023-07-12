@@ -62,7 +62,7 @@
 
 .bio .biotitle {
     display:flex;
-    width: 40%;
+    min-width: 20%;
     height: auto;
     border-right: 3px solid gold;
     align-items:center;
@@ -98,7 +98,7 @@
 
 /* Project Wrappers */
 main {
-    width: 90vw;
+    width: 90%;
     padding: 15px;
     color: #000;
     display: flex;
@@ -133,7 +133,7 @@ section {
 
 .previous-projects {
     display:flex;
-    width: 40%;
+    min-width: 20%;
     border-right: 3px solid gold;
     align-items:center;
     justify-content: right;
