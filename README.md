@@ -52,7 +52,9 @@ Received assistance from Tutor Andrew Tirpok who helped me with understanding th
 
 Used the following for guidance on wrapping flex items: [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Mastering_wrapping_of_flex_items)
 
+Used the following for guidance on fixing the browser not recognizing media queries: [StackOverflow](https://stackoverflow.com/questions/17344339/media-query-not-working-in-mobile-works-fine-in-chrome)
 
+Worked with Instructor John Brown and fixed the body layout issues
 
 ## License
 
