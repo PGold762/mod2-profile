@@ -34,11 +34,11 @@ Download the files from the repo and install on domain. Should work instantly.
 
 This is a responsive website used for GitHub profile to showcase my work history.
 
-Link to view: [My Profile Site]()
+Link to view: [My Profile Site](https://pgold762.github.io/mod2-profile/)
 
 Screenshot of website: 
 
-![Picture of My Profile site](./assets/images/ "My Profile Site")
+![Picture of My Profile site](./assets/images/screenshot-project2.png "My Profile Site")
 
 ## Credits
 
